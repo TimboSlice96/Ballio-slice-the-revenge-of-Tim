@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Background
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _NORMALMAP
   m_LightmapFlags: 4
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -24,7 +24,7 @@ Material:
     - first:
         name: _BumpMap
       second:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4eca2e4020bd2804bb93bf5259765c26, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -54,7 +54,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f25ef32658bb88a4aa1bc6a6d1fe6088, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -81,7 +81,7 @@ Material:
       second: 1
     - first:
         name: _BumpScale
-      second: 1
+      second: -0.35
     - first:
         name: _Cutoff
       second: 0.5
@@ -96,13 +96,13 @@ Material:
       second: 1
     - first:
         name: _Glossiness
-      second: 0.5
+      second: 0.7
     - first:
         name: _GlossyReflections
       second: 1
     - first:
         name: _Metallic
-      second: 0
+      second: 0.4
     - first:
         name: _Mode
       second: 0
@@ -133,7 +133,7 @@ Material:
       second: {r: 0, g: 0.1254902, b: 0.2509804, a: 1}
     - first:
         name: _Color
-      second: {r: 0, g: 0.751724, b: 1, a: 1}
+      second: {r: 0.8088235, g: 0.8088235, b: 0.8088235, a: 1}
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
